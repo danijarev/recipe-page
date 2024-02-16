@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+article {
+    background-color: hsl(330, 100%, 98%);
+    width: 50%;
+    text-align: left;
+    margin: 7% auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin: 15px auto 5px;
+}
+
+h3 {
+    font-family: "Young Serif", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+p {    
+    color: hsl(24, 5%, 18%);
+    opacity: 0.9;
+}
+
+.preparation-time {
+    background-color: hsla(332, 51%, 32%, 0.02);
+    padding: 10px 26px;
+}
+
+.preparation-time__title {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.preparation-time__list {
+    line-height: 2;
+    list-style-position: outside;
+    text-align: left;
+    padding-left: 25px;
+}
+
+li{
+    padding-left: 30px;
+}
+
+.inline-title {
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredients, .instructions {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients__list {
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.instructions__list {
+    padding-left: 25px;
+    line-height: 1.5;
+}
+
+.instructions__list li {
+    margin-bottom: 5px;
+}
+
+.instructions__list li::marker {
+    color: brown;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin: 0;
+    padding: 10px;
+}
+
+tr:last-child td {
+    border: none;
+}
+
+td:first-child {
+    padding-left: 50px;
+    width: 50%;
+    color: hsl(24, 5%, 18%)
+}
+
+td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.attribution {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+    }
+    
+    article {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    main {
+        margin: 30px;
+    }
+}
